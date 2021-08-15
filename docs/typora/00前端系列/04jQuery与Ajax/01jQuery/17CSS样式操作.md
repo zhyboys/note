@@ -1,0 +1,40 @@
+# 17 CSS样式操作
+
+> 注意批量设置时值要加引号，曾踩坑
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>21-jQuery操作CSS样式的方法</title>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            // 编写jQuery相关代码
+            // 1.逐个设置
+            $("div").css("width", "100px");
+            $("div").css("height", "100px");
+            $("div").css("background", "red");
+
+            // 2.链式设置（jQuery支持链式编程）
+            // 注意点: 链式操作如果大于3步, 建议分开
+            $("div").css("width", "100px").css("height", "100px").css("background", "blue");
+
+            // 3.批量设置
+            $("div").css({
+                width: "100px",
+                height: "100px",
+                background: "red"
+            });
+
+            // 4.获取CSS样式值
+            console.log($("div").css("background"));;
+        });
+    </script>
+</head>
+<body>
+<div></div>
+</body>
+</html>
+```
