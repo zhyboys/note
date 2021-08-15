@@ -1,3 +1,5 @@
 docs/.vuepress/
 
 node_modules/
+
+dist/
