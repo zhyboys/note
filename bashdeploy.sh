@@ -27,8 +27,8 @@ git commit -m 'deploy'
 
 # 下面其实就是SSH仓库地址，码云与GitHub不同。
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:zhyboys/zhyboys.github.io.git master
-git push -f git@gitee.com:zhyboy/zhyboy.git master
+git push -f git@github.com:zhyboys/zhyboys.github.io.git master
+# git push -f git@gitee.com:zhyboy/zhyboy.git master
 # git pull origin master
 # git push -u origin master
 
