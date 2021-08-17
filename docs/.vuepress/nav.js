@@ -13,7 +13,7 @@ module.exports =
 		[
 			{text:"概述总结",link:"/typora/00前端系列/00概述总结/"},
 			{text:"JavaScript基础",link:"/typora/00前端系列/02JavaScript/001概念"},
-			{text:"JavaScript高级",link:"/typora/00前端系列/05JavaScript新特性/01H5新增存储"},
+			{text:"JavaScript高级",link:"/typora/00前端系列/05JavaScript新特性/001H5新增存储"},
 			{
 				text:"CSS预处理器",
 				items:
