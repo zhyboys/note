@@ -22,6 +22,7 @@ module.exports=
 	/**
 	 * node后端
 	 */
+	 '/typora/00前端系列/13MySQL/':require('../typora/00前端系列/13MySQL/sidebar'),
 	 '/typora/00前端系列/16node三大框架/':require('../typora/00前端系列/16node三大框架/sidebar'),
 	/**
 	 * 废弃discard

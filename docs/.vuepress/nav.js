@@ -42,6 +42,7 @@ module.exports =
 	{
 		text: 'node后端',
 		items: [
+			{text: 'MySQL', link: '/typora/00前端系列/13MySQL/01数据库开篇'},
 			{text: 'node三大框架', link: '/typora/00前端系列/16node三大框架/001node搭建服务器回顾'}
 		]
 	},
