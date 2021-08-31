@@ -9,8 +9,8 @@ module.exports = {
 	// repo: 'https://github.com/TaoXuSheng/mt-blog', // 添加 github 链接
 	// =========================================================
 	head: [
-		['meta', { name: 'keywords', content: '赵桓熠，赵桓熠的博客，赵桓熠的前端博客'}],
-		['meta', { name: 'baidu-site-verification', content: 'code-IioeV44pRa'}],
+		['meta', { name: 'keywords', content: '赵桓熠 · 博客,赵桓熠,赵桓熠的博客,赵桓熠的前端博客'}],
+		['meta', { name: 'baidu-site-verification', content: 'code-HFrfXXfIPH'}],
 		['link', { rel: 'icon', href: '/img/logo.png' }],
 		// ['link', { rel: 'icon', href: '/img/logo.favicon' }],
 		// ['link', { rel: 'stylesheet', href: '/css/style.css' }],
