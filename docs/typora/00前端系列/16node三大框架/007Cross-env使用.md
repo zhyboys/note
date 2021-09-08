@@ -1,5 +1,13 @@
 # 007 Cross-env使用
 
+补充
+
+```
+set NODE_ENV 基于会话，关闭窗口失效
+```
+
+
+
 1. 安装
 2. 复制脚本到package.json
 
