@@ -4,7 +4,7 @@
 
 $() 函数是 jQuery() 函数的别称,$() 函数用于将任何对象包裹成 jQuery 对象，接着你就被允许调用定义在 jQuery 对象上的多个不同方法。你甚至可以将一个选择器字符串传入 $() 函数，它会返回一个包含所有匹配的 DOM 元素数组的 jQuery 对象。
 
-## 90.网页上有 5 个 <div> 元素，如何使用 jQuery来选择它们？
+## 90.网页上有 5 个 `<div>` 元素，如何使用 jQuery来选择它们？
 
 $("div")，这样会返回一个包含所有 5 个 div 标签的 jQuery 对象。
 
@@ -14,11 +14,13 @@ ID 选择器使用 ID 来选择元素，比如 #element1，而 class 选择器�
 
 ## 92. 如何在点击一个按钮时使用 jQuery 隐藏一个图片？
 
-`$(``'#ButtonToClick'``).click(``function``(){`
+```js
+$('#ButtonToClick').click(function(){
 
-`    ``$(``'#ImageToHide'``).hide();`
+  $('#ImageToHide').hide();
 
-`});`
+});
+```
 
 ## 93.$(document).ready() 是个什么函数？为什么要用它？
 
