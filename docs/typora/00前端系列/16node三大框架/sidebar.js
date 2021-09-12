@@ -1,11 +1,11 @@
 module.exports =
     [
         {
-            title: "原生node开发服务端",
+            text: "原生node开发服务端",
             collapsable:true,
             children:
             [
-                '/typora/00前端系列/16node三大框架/001node搭建服务器回顾',
+                '/typora/00前端系列/16node三大框架/001node搭建服务器回顾.md',
                 '/typora/00前端系列/16node三大框架/002nodeMon自动重启工具.md',
                 '/typora/00前端系列/16node三大框架/003node响应不同类型数据.md',
                 '/typora/00前端系列/16node三大框架/004node响应动态网页.md',

@@ -1,15 +1,15 @@
 module.exports =
     [
-        {   title: '1：bootstrap',
+        {   text: '1：bootstrap',
             collapsable: false,//表示可以折叠
             children: [
-                '/discard/09Javaweb/11bootstrap/BootStrap笔记',
+                '/discard/09Javaweb/11bootstrap/BootStrap笔记.md',
             ]
         },
-        {   title: '2：xml',
+        {   text: '2：xml',
             collapsable: false,//表示可以折叠
             children: [
-                '/discard/09Javaweb/12xml/xml笔记',
+                '/discard/09Javaweb/12xml/xml笔记.md',
             ]
         },
     ]

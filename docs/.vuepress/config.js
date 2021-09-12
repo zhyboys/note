@@ -25,11 +25,11 @@ module.exports = {
 		  },
 	},
 	themeConfig: {
-		nav: require("./nav.js"),
+		navbar: require("./nav.js"),
 		sidebar: require("./sidebar.js"),
 		sidebarDepth: 2,
-		lastUpdated: 'last Updated',
-		searchMaxSuggestoins: 10,
+		lastUpdated: true,
+		lastUpdatedText: '上次更新',
 		serviceWorker: {
 			UpdatePopup: {
 				message: "有新的内容.",
@@ -38,5 +38,15 @@ module.exports = {
 		},
 		editLinks: true,
 		editLinkText: '在GitHub上编辑此页！'
-	}
+	},
+	plugins: [
+		[
+		  '@vuepress/plugin-search',
+		  {
+			// 排除首页
+			isSearchable: (page) => page.path !== '/',
+			maxSuggestions: 10,
+		  },
+		],
+	  ],
 }

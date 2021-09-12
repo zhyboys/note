@@ -1,7 +1,7 @@
 module.exports =
     [
         {
-            // title: "vue核心基础",
+            // text: "vue核心基础",
             collapsable:false,
             children:
             [
