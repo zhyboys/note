@@ -1,43 +1,44 @@
 module.exports=
 {	
-	'/guide/':require('../guide/sidebar'),
+	// 注意点：:require前面的字符串不能为英文否则报错！！
+	'/typora/00guide/':require('../typora/00guide/sidebar'),
 
 	/**
 	 * 前端系列栏
 	 */
-	// '/typora/00前端系列/02JavaScript/':require('../typora/00前端系列/02JavaScript/sidebar'),
-	// '/typora/00前端系列/00概述总结/':require('../typora/00前端系列/00概述总结/sidebar'),
-	// '/typora/00前端系列/03css预处理器/01Less/':require('../typora/00前端系列/03css预处理器/01Less/sidebar'),
-	// '/typora/00前端系列/03css预处理器/02fullPage/':require('../typora/00前端系列/03css预处理器/02fullPage/sidebar'),
-	// '/typora/00前端系列/03css预处理器/03SASS/':require('../typora/00前端系列/03css预处理器/03SASS/sidebar'),
-	// '/typora/00前端系列/04jQuery与Ajax/01jQuery/':require('../typora/00前端系列/04jQuery与Ajax/01jQuery/sidebar'),
-	// '/typora/00前端系列/05JavaScript新特性/':require('../typora/00前端系列/05JavaScript新特性/sidebar'),
-	// '/typora/00前端系列/04jQuery与Ajax/02Ajax/':require('../typora/00前端系列/04jQuery与Ajax/02Ajax/sidebar'),
-	// '/typora/00前端系列/07移动端web开发/':require('../typora/00前端系列/07移动端web开发/sidebar'),
-	// '/typora/00前端系列/08Git/':require('../typora/00前端系列/08Git/sidebar'),
-	// '/typora/00前端系列/09NodeJS/':require('../typora/00前端系列/09NodeJS/sidebar'),
-	// '/typora/00前端系列/10Webpack/':require('../typora/00前端系列/10Webpack/sidebar'),
-	// '/typora/00前端系列/11Vue/':require('../typora/00前端系列/11Vue/sidebar'),
+	'/typora/01frontEnd/00summary/':require('../typora/01frontEnd/00summary/sidebar'),
+	'/typora/01frontEnd/02JavaScript/':require('../typora/01frontEnd/02JavaScript/sidebar'),
+	'/typora/01frontEnd/05JavaScriptNewFeature/':require('../typora/01frontEnd/05JavaScriptNewFeature/sidebar'),
+	'/typora/01frontEnd/03CSSPreprocessor/01Less/':require('../typora/01frontEnd/03CSSPreprocessor/01Less/sidebar'),
+	'/typora/01frontEnd/03CSSPreprocessor/02fullPage/':require('../typora/01frontEnd/03CSSPreprocessor/02fullPage/sidebar'),
+	'/typora/01frontEnd/03CSSPreprocessor/03SASS/':require('../typora/01frontEnd/03CSSPreprocessor/03SASS/sidebar'),
+	'/typora/01frontEnd/04jQueryAndAjax/01jQuery/':require('../typora/01frontEnd/04jQueryAndAjax/01jQuery/sidebar'),
+	'/typora/01frontEnd/04jQueryAndAjax/02Ajax/':require('../typora/01frontEnd/04jQueryAndAjax/02Ajax/sidebar'),
+	'/typora/01frontEnd/07webAppDevelop/':require('../typora/01frontEnd/07webAppDevelop/sidebar'),
+	'/typora/01frontEnd/08Git/':require('../typora/01frontEnd/08Git/sidebar'),
+	'/typora/01frontEnd/09NodeJS/':require('../typora/01frontEnd/09NodeJS/sidebar'),
+	'/typora/01frontEnd/10Webpack/':require('../typora/01frontEnd/10Webpack/sidebar'),
+	'/typora/01frontEnd/11Vue/':require('../typora/01frontEnd/11Vue/sidebar'),
 
 	/**
 	 * node后端
 	 */
-	//  '/typora/00前端系列/13MySQL/':require('../typora/00前端系列/13MySQL/sidebar'),
-	//  '/typora/00前端系列/16node三大框架/':require('../typora/00前端系列/16node三大框架/sidebar'),
+	 '/typora/01frontEnd/13MySQL/':require('../typora/01frontEnd/13MySQL/sidebar'),
+	 '/typora/01frontEnd/16nodeFramework/':require('../typora/01frontEnd/16nodeFramework/sidebar'),
 	/**
 	 * 废弃discard
 	 */
-	// '/discard/01数据库MySQL/':require('../discard/01数据库MySQL/sidebar'),
-	// '/discard/02HTML+css/':require('../discard/02HTML+css/sidebar'),
-	// '/discard/03C语言进阶/':require('../discard/03C语言进阶/sidebar'),
-	// '/discard/04C++/':require('../discard/04C++/sidebar'),
-	// '/discard/05js笔记/':require('../discard/05js笔记/sidebar'),
-	// '/discard/06中级软考/':require('../discard/06中级软考/sidebar'),
-	// '/discard/07Java基础/':require('../discard/07Java基础/sidebar'),
-	// '/discard/08Java进阶/':require('../discard/08Java进阶/sidebar'),
-	// '/discard/09Javaweb/':require('../discard/09Javaweb/sidebar'),
-	// '/discard/10JDBC/':require('../discard/10JDBC/sidebar'),
-	// '/discard/11JSP笔记/':require('../discard/11JSP笔记/sidebar'),
-	// '/discard/12Auto/':require('../discard/12Auto/sidebar'),
-	// '/discard/13python/':require('../discard/13python/sidebar'),
+	'/typora/05discard/01MySQL/':require('../typora/05discard/01MySQL/sidebar'),
+	'/typora/05discard/02HTML+css/':require('../typora/05discard/02HTML+css/sidebar'),
+	'/typora/05discard/03CProgramming/':require('../typora/05discard/03CProgramming/sidebar'),
+	'/typora/05discard/04C++/':require('../typora/05discard/04C++/sidebar'),
+	'/typora/05discard/05JavaScript/':require('../typora/05discard/05JavaScript/sidebar'),
+	'/typora/05discard/06softExam/':require('../typora/05discard/06softExam/sidebar'),
+	'/typora/05discard/07Java1/':require('../typora/05discard/07Java1/sidebar'),
+	'/typora/05discard/08Java2/':require('../typora/05discard/08Java2/sidebar'),
+	'/typora/05discard/09Javaweb/':require('../typora/05discard/09Javaweb/sidebar'),
+	'/typora/05discard/10JDBC/':require('../typora/05discard/10JDBC/sidebar'),
+	'/typora/05discard/11JSP/':require('../typora/05discard/11JSP/sidebar'),
+	'/typora/05discard/12Auto/':require('../typora/05discard/12Auto/sidebar'),
+	'/typora/05discard/13python/':require('../typora/05discard/13python/sidebar'),
 }
