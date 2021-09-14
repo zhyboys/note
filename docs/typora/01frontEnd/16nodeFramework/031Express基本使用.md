@@ -1,5 +1,13 @@
 # 031 Express基本使用
 
+通过手动安装的方式使用Express
+
+```bash
+npm install express
+```
+
+
+
 ```js
 /*
 1.如何使用Express?

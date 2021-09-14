@@ -43,7 +43,7 @@ module.exports =
 		text: 'node后端',
 		children: [
 			{text: 'MySQL', link: '/typora/01frontEnd/13MySQL/01数据库开篇.md'},
-			{text: 'node三大框架', link: '/typora/01frontEnd/16nodeFramework/001node搭建服务器回顾.md'}
+			{text: 'node三大框架', link: '/typora/01frontEnd/16nodeFramework/'}
 		]
 	},
 	/* discard废弃笔记 */

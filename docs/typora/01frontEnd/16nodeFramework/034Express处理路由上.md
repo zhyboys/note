@@ -1,5 +1,22 @@
 # 034 Express处理路由上
 
+
+
+新学：使用监听get 和 post 请求来返回数据， 并使用封装好方法的返回 json 格式数据。
+
+```js
+// 注意点: 响应对象的json方法是express给响应对象扩展的
+//         这个方法会自动将对象转换成字符串之后返回
+//         这个方法还会自动帮助我们设置响应头
+res.json({
+    name:'lnj',
+    age:33,
+    method: 'get'
+});
+```
+
+源码
+
 ```js
 // 1.导入express
 const express = require('express');

@@ -1,5 +1,9 @@
 # 040 Express处理错误
 
+
+
+需安装`http-errors`插件
+
 ```js
 // 1.导入express
 const express = require('express');

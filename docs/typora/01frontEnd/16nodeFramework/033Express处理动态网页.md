@@ -1,5 +1,9 @@
 # 033 Express处理动态网页
 
+想要返回动态网页，还需要安装ejs模块，并把动态网页html文件的后缀名`.html`改成`.ejs` .
+
+
+
 ```js
 // 1.导入express
 const express = require('express');

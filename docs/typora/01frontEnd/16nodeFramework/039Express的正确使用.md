@@ -1,6 +1,6 @@
 # 039 Express的正确使用
 
-039 Express的正确使用方法040
+039 Express的next方法的正确使用方法040
 
 ```js
 // 1.导入express

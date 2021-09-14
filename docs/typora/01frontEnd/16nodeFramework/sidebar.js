@@ -36,7 +36,7 @@ module.exports =
             ]
         },
         {
-            text: "原生node开发服务端",
+            text: "Express",
             collapsable:true,
             children:
             [
@@ -52,6 +52,31 @@ module.exports =
                 '/typora/01frontEnd/16nodeFramework/039Express的正确使用.md',
                 '/typora/01frontEnd/16nodeFramework/040Express处理错误.md',
                 '/typora/01frontEnd/16nodeFramework/041Express中间件.md',
+                '/typora/01frontEnd/16nodeFramework/042Express脚手架使用.md',
+            ]
+        },
+        {
+            text: "Koa2",
+            collapsable:true,
+            children:
+            [
+                // '/typora/01frontEnd/16nodeFramework/030Express开篇.md',
+            ]
+        },
+        {
+            text: "Node项目上线",
+            collapsable:true,
+            children:
+            [
+                // '/typora/01frontEnd/16nodeFramework/030Express开篇.md',
+            ]
+        },
+        {
+            text: "Egg",
+            collapsable:true,
+            children:
+            [
+                // '/typora/01frontEnd/16nodeFramework/030Express开篇.md',
             ]
         }
     ]

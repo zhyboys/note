@@ -1,5 +1,25 @@
 # 037 Express处理Cookie
 
+提取
+
+```js
+// 处理cookie  maxAge生命周期（毫秒）
+app.get('/setCookie', (req, res, next)=>{
+    res.cookie('username', 'lnj', {httpOnly: true, path: '/', maxAge: 10000});
+    res.end();
+});
+
+// 需要安装npm install cookie-parser
+app.use(cookieParser());
+app.get('/getCookie', (req, res, next)=>{
+    console.log(req.cookies);
+});
+```
+
+
+
+源码
+
 ```js
 // 1.导入express
 const express = require('express');

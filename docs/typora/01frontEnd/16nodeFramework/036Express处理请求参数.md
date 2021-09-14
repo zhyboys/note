@@ -1,5 +1,26 @@
 # 036 Express处理请求参数
 
+提取
+
+```js
+app.get('/get', (req, res, next)=>{
+    // express会将get的请求参数转换成对象之后, 放到请求对象的query属性中
+    console.log(req.query);
+});
+
+app.use(express.json()); // 告诉express能够解析 application/json类型的请求参数
+app.use(express.urlencoded({extended: false})); // 告诉express能够解析 表单类型的请求参数 application/x-www-form-urlencoded
+//extended: false 是指用queryString来解析，建议使用false
+// express会将解析之后, 转换成对象的post请求参数放到请求对象的body属性中
+app.post('/post', (req, res, next)=>{
+    console.log(req.body);
+});
+```
+
+
+
+源代码
+
 ```js
 // 1.导入express
 const express = require('express');
@@ -29,6 +50,7 @@ app.get('/get', (req, res, next)=>{
 });
 app.use(express.json()); // 告诉express能够解析 application/json类型的请求参数
 app.use(express.urlencoded({extended: false})); // 告诉express能够解析 表单类型的请求参数 application/x-www-form-urlencoded
+//extended: false 是指用queryString来解析，建议使用false
 // express会将解析之后, 转换成对象的post请求参数放到请求对象的body属性中
 app.post('/post', (req, res, next)=>{
     console.log(req.body);
