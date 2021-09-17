@@ -26,6 +26,8 @@ npm start # 启动项目
 nodemon
 cross-env
 这两个安装好后需要配置，与之前node一样的配置，主要再package.json的启动命令。
+    "dev": "cross-env NODE_ENV=dev nodemon bin/www.js",
+    "build": "cross-env NODE_ENV=pro nodemon bin/www.js"
 ```
 
 
