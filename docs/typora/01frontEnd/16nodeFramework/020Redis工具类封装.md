@@ -1,5 +1,13 @@
 # 020 Redis工具类封装
 
+redis下载安装
+
+```
+https://github.com/MicrosoftArchive/redis/releases
+```
+
+
+
 安装插件
 
 ```bash

@@ -3,7 +3,7 @@
 安装
 
 ```bash
-npm install express-generator
+npm install express-generator -g
 ```
 
 创建项目
