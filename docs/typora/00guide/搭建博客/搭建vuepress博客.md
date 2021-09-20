@@ -13,26 +13,24 @@
    added 688 packages from 971 contributors in 31.368s
    ```
 
-3. 输入cnpm -v检测是否正常，判断是否需要配置环境变量。
+   输入cnpm -v检测是否正常，判断是否需要配置环境变量。
 
    ```
    path下添加C:\Users\26254\AppData\Roaming\npm因该是吧？？？反正我没配。
    ```
 
-4. 全局安装vuepress：cmd中输入`cnpm install -g vuepress`
+4. 全局安装vuepress：cmd中输入`cnpm install -g vuepress`。
 
-5. 在cmd中，输入`mkdir vuepress-blog`创建文件夹vuepress-blog文件夹，之后的内容就在这个文件夹进行。
+4. 使用命令，建立文件目录。
 
-6. 在cmd中，进行项目初始化，初始化后生成一个package.json文件。
-
-   ```bash
+   ```
+   mkdir vuepress-blog
    cd vuepress-blog
+   mkdir docs
    npm init -y
    ```
 
-7. 在package.json文件旁边新建一个docs文件夹，目的是存放笔记文档。
-
-8. 进入docs文件夹，新建md文件，名为README.md，并在README（首页），写入以下内容：
+5. 进入docs文件夹，新建md文件，名为README.md，并在README（首页），写入以下内容：
 
    ```markdown
    ---
@@ -600,7 +598,9 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
 
 4. 正文用#写标题侧边栏也会收录，但正文写一级标题用序号可能不太好看。
 
-5. 不能写成序号后直接跟一句代码，否则编译出错，如下所示。
+5. 如果标题采用标签，标签前加#，则编译后博客上面侧边栏标题为空。一级标题就写#不要用二级标题代替。
+
+6. 不能写成序号后直接跟一句代码，否则编译出错，如下所示。
 
     ```js
     1. `数组类型 数组名[数组长度];`
@@ -608,15 +608,15 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
     3. `数组类型 数组名[] = {1,2,3};`
     ```
 
-6. 正文中不能出现单个标签而不闭合，因为md中的html也会被识别编译，如果出现单个标签而不闭合，或者说只是想引用标签（如下）。总之，正文中不正确使用 html 标签会报错。
+7. 正文中不能出现单个标签而不闭合，因为md中的html也会被识别编译，如果出现单个标签而不闭合，或者说只是想引用标签（如下）。总之，正文中不正确使用 html 标签会报错。
 
    ```
    `<span>` 想在正文中引用标签就要使用字符串模板符号包裹起来。
    ```
 
-7. 正文中使用 `<style>`标签和`<script>` 标签会编译出错。或者说其中的某一个标签不能使用。编译时提示这两个标签都将被忽略并且编译失败。最终我把两个标签都删了解决了问题。
+8. 正文中使用 `<style>`标签和`<script>` 标签会编译出错。或者说其中的某一个标签不能使用。编译时提示这两个标签都将被忽略并且编译失败。最终我把两个标签都删了解决了问题。
 
-8. 内存溢出问题。
+9. 内存溢出问题。
 
     ```
     1. 首先，我浏览了别人的博客，调大的内存限制，但是好像并没有什么用！
@@ -625,6 +625,10 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
     2. 然后我下载了最新版的vuepress，会跑出来很多错，这些错都是因为md笔记语法有问题(cmd都列出来了)，我修改了有问题的语法，就成功了。
     
     3. 在解决完之后，最后我发现github上，已经有人遇到了这个问题，并且有解决方案.
+    
+    4. 终极解决方案（因为执行前三步只是暂时解决了问题，随着笔记的增多，问题再次出现）
+        "docs:dev": "node --max_old_space_size=8192 ./node_modules/vuepress/bin/vuepress.js dev docs",
+        "docs:build": "node --max_old_space_size=8192 ./node_modules/vuepress/bin/vuepress.js build docs"
     ```
 
     

@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:build": "vuepress build docs --clean-cache",
-    "docs:dev": "vuepress dev docs",
+    "docs:build:old": "vuepress build docs --clean-cache",
+    "docs:dev:old": "vuepress dev docs",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "docs:dev": "node --max_old_space_size=8192 ./node_modules/vuepress/bin/vuepress.js dev docs",
+    "docs:build": "node --max_old_space_size=8192 ./node_modules/vuepress/bin/vuepress.js build docs"
   },
   "keywords": [],
   "author": "",

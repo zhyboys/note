@@ -32,7 +32,7 @@ module.exports =
                 '/typora/01frontEnd/16nodeFramework/025日志记录.md',
                 '/typora/01frontEnd/16nodeFramework/026日志分析.md',
                 '/typora/01frontEnd/16nodeFramework/027插件与工具类总结.md',
-                '/typora/01frontEnd/16nodeFramework/029备用.md',
+                '/typora/01frontEnd/16nodeFramework/028备用.md',
             ]
         },
         {
@@ -40,19 +40,24 @@ module.exports =
             collapsable:true,
             children:
             [
-                '/typora/01frontEnd/16nodeFramework/030Express开篇.md',
-                '/typora/01frontEnd/16nodeFramework/031Express基本使用.md',
-                '/typora/01frontEnd/16nodeFramework/032Express处理静态网页.md',
-                '/typora/01frontEnd/16nodeFramework/033Express处理动态网页.md',
-                '/typora/01frontEnd/16nodeFramework/034Express处理路由上.md',
-                '/typora/01frontEnd/16nodeFramework/035Express处理路由下.md',
-                '/typora/01frontEnd/16nodeFramework/036Express处理请求参数.md',
-                '/typora/01frontEnd/16nodeFramework/037Express处理Cookie.md',
-                '/typora/01frontEnd/16nodeFramework/038Express的next方法.md',
-                '/typora/01frontEnd/16nodeFramework/039Express的正确使用.md',
-                '/typora/01frontEnd/16nodeFramework/040Express处理错误.md',
-                '/typora/01frontEnd/16nodeFramework/041Express中间件.md',
-                '/typora/01frontEnd/16nodeFramework/042Express脚手架使用.md',
+                '/typora/01frontEnd/16nodeFramework/029Express开篇.md',
+                '/typora/01frontEnd/16nodeFramework/030Express基本使用.md',
+                '/typora/01frontEnd/16nodeFramework/031Express处理静态网页.md',
+                '/typora/01frontEnd/16nodeFramework/032Express处理动态网页.md',
+                '/typora/01frontEnd/16nodeFramework/033Express处理路由上.md',
+                '/typora/01frontEnd/16nodeFramework/034Express处理路由下.md',
+                '/typora/01frontEnd/16nodeFramework/035Express处理请求参数.md',
+                '/typora/01frontEnd/16nodeFramework/036Express处理Cookie.md',
+                '/typora/01frontEnd/16nodeFramework/037Express的next方法.md',
+                '/typora/01frontEnd/16nodeFramework/038Express的正确使用.md',
+                '/typora/01frontEnd/16nodeFramework/039Express处理错误.md',
+                '/typora/01frontEnd/16nodeFramework/040Express中间件.md',
+                '/typora/01frontEnd/16nodeFramework/041Express脚手架使用.md',
+                '/typora/01frontEnd/16nodeFramework/042Express实现注册登录.md',
+                '/typora/01frontEnd/16nodeFramework/043Express保存登录状态上.md',
+                '/typora/01frontEnd/16nodeFramework/044Express保存登录状态下.md',
+                '/typora/01frontEnd/16nodeFramework/045Express记录日志.md',
+                '/typora/01frontEnd/16nodeFramework/046插件与工具类总结.md',
             ]
         },
         {
@@ -60,7 +65,21 @@ module.exports =
             collapsable:true,
             children:
             [
-                // '/typora/01frontEnd/16nodeFramework/030Express开篇.md',
+                '/typora/01frontEnd/16nodeFramework/047Koa开篇.md',
+                '/typora/01frontEnd/16nodeFramework/048Koa2基本使用.md',
+                '/typora/01frontEnd/16nodeFramework/049Koa2处理静态资源.md',
+                '/typora/01frontEnd/16nodeFramework/050Koa2处理动态网页.md',
+                '/typora/01frontEnd/16nodeFramework/051Koa2处理路由.md',
+                '/typora/01frontEnd/16nodeFramework/052Koa2处理Get请求参数.md',
+                '/typora/01frontEnd/16nodeFramework/053Koa2处理Post请求参数.md',
+                '/typora/01frontEnd/16nodeFramework/054Koa2处理Cookie.md',
+                '/typora/01frontEnd/16nodeFramework/055Koa2处理错误.md',
+                '/typora/01frontEnd/16nodeFramework/056Koa2脚手架使用.md',
+                '/typora/01frontEnd/16nodeFramework/057Koa2实现注册登录.md',
+                '/typora/01frontEnd/16nodeFramework/058Koa2存储登录状态.md',
+                '/typora/01frontEnd/16nodeFramework/059Koa2日志记录.md',
+                '/typora/01frontEnd/16nodeFramework/060插件与工具类总结.md',
+                '/typora/01frontEnd/16nodeFramework/061备用.md',
             ]
         },
         {
@@ -68,7 +87,15 @@ module.exports =
             collapsable:true,
             children:
             [
-                // '/typora/01frontEnd/16nodeFramework/030Express开篇.md',
+                '/typora/01frontEnd/16nodeFramework/062Cookie跨域问题.md',
+                '/typora/01frontEnd/16nodeFramework/063正向代理和反向代理.md',
+                '/typora/01frontEnd/16nodeFramework/064Nginx解决Cookie跨域问题.md',
+                '/typora/01frontEnd/16nodeFramework/065PM2基本使用.md',
+                '/typora/01frontEnd/16nodeFramework/066PM2常用指令.md',
+                '/typora/01frontEnd/16nodeFramework/067进程守护.md',
+                '/typora/01frontEnd/16nodeFramework/068PM2常用配置.md',
+                '/typora/01frontEnd/16nodeFramework/069负载均衡.md',
+                '/typora/01frontEnd/16nodeFramework/070插件与工具类总结.md',
             ]
         },
         {
@@ -76,7 +103,40 @@ module.exports =
             collapsable:true,
             children:
             [
-                // '/typora/01frontEnd/16nodeFramework/030Express开篇.md',
+                '/typora/01frontEnd/16nodeFramework/071EggJs开篇.md',
+                '/typora/01frontEnd/16nodeFramework/072EggJs基本使用.md',
+                '/typora/01frontEnd/16nodeFramework/073EggJs处理请求参数.md',
+                '/typora/01frontEnd/16nodeFramework/074EggJs处理静态资源.md',
+                '/typora/01frontEnd/16nodeFramework/075EggJs处理动态资源.md',
+                '/typora/01frontEnd/16nodeFramework/076EggJs处理网络数据.md',
+                '/typora/01frontEnd/16nodeFramework/077EggJs中Service注意点.md',
+                '/typora/01frontEnd/16nodeFramework/078EggJs处理Cookie.md',
+                '/typora/01frontEnd/16nodeFramework/079EggJs处理日志.md',
+                '/typora/01frontEnd/16nodeFramework/080EggJs定时任务.md',
+                '/typora/01frontEnd/16nodeFramework/081EggJs自定义启动项.md',
+                '/typora/01frontEnd/16nodeFramework/082EggJs框架扩展上.md',
+                '/typora/01frontEnd/16nodeFramework/083EggJs框架扩展下.md',
+                '/typora/01frontEnd/16nodeFramework/084EggJs中间件.md',
+                '/typora/01frontEnd/16nodeFramework/085EggJs国际化.md',
+                '/typora/01frontEnd/16nodeFramework/086EggJs操作MySQL.md',
+                '/typora/01frontEnd/16nodeFramework/087EggJs使用Sequelize.md',
+                '/typora/01frontEnd/16nodeFramework/088EggJs配置文件.md',
+                '/typora/01frontEnd/16nodeFramework/089EggJs脚手架工具.md',
+                '/typora/01frontEnd/16nodeFramework/090EggJs的CSRF安全防范.md',
+                '/typora/01frontEnd/16nodeFramework/091EggJs校验前端数据.md',
+                '/typora/01frontEnd/16nodeFramework/092EggJs统计接口响应格式.md',
+                '/typora/01frontEnd/16nodeFramework/093EgqJs保存注册数据.md',
+                '/typora/01frontEnd/16nodeFramework/094EggJs加密工具方法.md',
+                '/typora/01frontEnd/16nodeFramework/095EggJs防止重复注册.md',
+                '/typora/01frontEnd/16nodeFramework/096EggJs实现登录.md',
+                '/typora/01frontEnd/16nodeFramework/097EggJs保存登录状态.md',
+                '/typora/01frontEnd/16nodeFramework/098插件与工具类总结.md',
+                '/typora/01frontEnd/16nodeFramework/099备用.md',
             ]
         }
     ]
+
+
+
+
+

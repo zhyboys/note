@@ -6,4 +6,4 @@ dist/
 
 docs/.vuepress/.temp/
 
-docs/.vuepress/.catch/
+docs/.vuepress/.cache/
