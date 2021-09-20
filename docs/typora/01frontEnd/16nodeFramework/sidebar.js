@@ -125,7 +125,7 @@ module.exports =
                 '/typora/01frontEnd/16nodeFramework/090EggJs的CSRF安全防范.md',
                 '/typora/01frontEnd/16nodeFramework/091EggJs校验前端数据.md',
                 '/typora/01frontEnd/16nodeFramework/092EggJs统计接口响应格式.md',
-                '/typora/01frontEnd/16nodeFramework/093EgqJs保存注册数据.md',
+                '/typora/01frontEnd/16nodeFramework/093EggJs保存注册数据.md',
                 '/typora/01frontEnd/16nodeFramework/094EggJs加密工具方法.md',
                 '/typora/01frontEnd/16nodeFramework/095EggJs防止重复注册.md',
                 '/typora/01frontEnd/16nodeFramework/096EggJs实现登录.md',
