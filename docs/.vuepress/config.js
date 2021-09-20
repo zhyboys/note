@@ -37,7 +37,8 @@ module.exports = {
 			}
 		},
 		editLinks: true,
-		editLinkText: '在GitHub上编辑此页！'
+		editLinkText: '在GitHub上编辑此页！',
+		contributors: false
 	},
 	plugins: [
 		[
