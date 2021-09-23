@@ -25,6 +25,7 @@ module.exports=
 	 */
 	 '/typora/01frontEnd/13MySQL/':require('../typora/01frontEnd/13MySQL/sidebar'),
 	 '/typora/01frontEnd/16nodeFramework/':require('../typora/01frontEnd/16nodeFramework/sidebar'),
+	 '/typora/01frontEnd/18TypeScript/':require('../typora/01frontEnd/18TypeScript/sidebar'),
 	/**
 	 * 废弃discard
 	 */

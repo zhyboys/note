@@ -8,3 +8,4 @@
 2. 配置config
 3. app下新建schema目录
 4. schema目录下新建任意文件暴露校验规则。
+

@@ -632,3 +632,46 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
     ```
 
     
+
+## 09 node自动创建文件
+
+在node环境中拷贝运行即可。
+
+```js
+const fs = require('fs')
+const path = require('path')
+
+class Create{
+    constructor() {
+        this.fileNameArray = [
+            '00zs.md',
+            '01zs.md',
+        ]
+        this.serialLength = 2 // 序号长度
+        this.rootPath = './typora'
+        this.createDir()
+        this.createFile()
+    }
+    createDir(){
+        let isExist = fs.existsSync(this.rootPath)
+        if (!isExist){
+            fs.mkdirSync(this.rootPath)
+        }
+    }
+    // 在新建的目录下创建文件
+    createFile(){
+        for (let i = 0; i<this.fileNameArray.length; i++){
+            let fileName = this.fileNameArray[i]
+            let filePath = path.join(this.rootPath, fileName)
+            let fileSerial = fileName.substr(0, this.serialLength)
+            let fileContent = `# ${fileSerial} ${fileName.substring(this.serialLength, (fileName.length - 3))}`
+            let writeStream = fs.createWriteStream(filePath)
+            writeStream.write(fileContent)
+            writeStream.on('close', () => console.log(i + '\t' + fileName + ' 已创建'))
+            writeStream.end()
+        }
+    }
+}
+
+new Create()
+```

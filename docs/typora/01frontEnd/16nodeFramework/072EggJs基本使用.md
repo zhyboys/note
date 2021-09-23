@@ -17,6 +17,12 @@ npm i egg-bin --save-dev    #egg-bin模块, 这个模块是用于快速启动项
 
 teacher部分的内容也是很值得看一看的。
 
+1. 搭建一个必须的目录结构。
+
+2. 路由中`router.js`暴露时需要传递app参数。
+3. controller下的类需要暴露并且继承`egg.Controller`。
+4. controller中的方法必须是异步的。
+
 
 
 ## 2.teacher
@@ -90,6 +96,7 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller{
     async index(){
         /*
+        egg官网：基础-->控制器
         在EggJS中, EggJS会自动给控制器的this挂载一些属性
         this.ctx: 当前请求的上下文 Context 对象的实例，通过它我们可以拿到框架封装好的处理当前请求的各种便捷属性和方法。
         this.app: 当前应用 Application 对象的实例，通过它我们可以拿到框架提供的全局对象和方法。

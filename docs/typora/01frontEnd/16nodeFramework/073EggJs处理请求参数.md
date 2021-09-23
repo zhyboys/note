@@ -20,7 +20,7 @@ router.post('/login', controller.home.getBody);
 async getQuery(){
     // 获取传统get请求参数
     // this.ctx.request.query
-    let query = this.ctx.query; // 一种简写
+    let query = this.ctx.query; // 一种简写，省去request
     this.ctx.body = query;
 }
 async getParams(){
