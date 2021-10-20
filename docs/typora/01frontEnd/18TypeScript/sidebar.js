@@ -164,6 +164,15 @@ module.exports =
                 '/typora/01frontEnd/18TypeScript/72声明安装.md',
                 '/typora/01frontEnd/18TypeScript/73收尾.md',
             ]
+        },
+        {
+            text: "总结",
+            collapsable:true,
+            children:
+            [
+                '/typora/01frontEnd/18TypeScript/74数据类型总结.md',
+                '/typora/01frontEnd/18TypeScript/75tsconfig总结.md'
+            ]
         }
     ]
 
