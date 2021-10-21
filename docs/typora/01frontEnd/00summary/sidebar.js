@@ -13,6 +13,10 @@ module.exports =
                 '/typora/01frontEnd/00summary/06每日面试题node与Vue.md',
                 '/typora/01frontEnd/00summary/07每日面试题微信小程序.md',
                 '/typora/01frontEnd/00summary/08elementUI时间.md',
+                '/typora/01frontEnd/00summary/09CSS显示省略号.md',
+                '/typora/01frontEnd/00summary/10人工智能博客优选.md',
+                '/typora/01frontEnd/00summary/11Linux虚拟机运行nginx.md',
+                '/typora/01frontEnd/00summary/12git办公常用命令.md',
             ]
         },
     ]
