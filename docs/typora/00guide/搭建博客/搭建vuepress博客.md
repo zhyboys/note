@@ -1,6 +1,6 @@
 # 搭建博客
 
-## 01 安装初始化
+## 1 安装初始化
 
 1. 安装node并检测，cmd输入`node -v`显示`v14.15.0`，输入`npm -v`显示`6.14.8`。表示安装成功。
 
@@ -51,7 +51,7 @@
 
    
 
-## 02 核心配置
+## 2 核心配置
 
 1. 在cmd中，进入docs文件夹内`cd docs`。
 
@@ -127,7 +127,7 @@
    1. 把readme重新指定编码格式，我这次没出现这个问题。
    2. 在cmd中`ctrl+c`结束运行，再输入`vuepress dev docs`重新运行。
 
-## 03 导航栏的配置
+## 3 导航栏的配置
 
 1. 找到在.vuepress文件夹下的config.js文件并打开。
 
@@ -206,7 +206,7 @@
 
       4. `/guide/`后面的那个斜杠默认是找readme文件的。
 
-## 04 侧边栏配置
+## 4 侧边栏配置
 
 1. 首先在博客界面点击导航栏的某个，才能出现侧边栏。
 
@@ -385,7 +385,7 @@
 
 24. 运行一下试试：
 
-## 05 静态资源配置
+## 5 静态资源配置
 
 vuepress默认图片目录是`/docs/.vuepress/public/`。
 
@@ -432,7 +432,7 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
 
    
 
-## 06 部署
+## 6 部署
 
 1. 在docs/.vuepress/config.js中设置正确的base。
 
@@ -510,7 +510,7 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
 
 11. 需要用到的安装包：git node，小乌龟虽有，可以不用。链接：https://wwe.lanzous.com/iNL8Zi8nqwh
 
-## 07 防忘记
+## 7 防忘记
 
 新建分类
 
@@ -582,7 +582,7 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
    ```
 
    
-## 08 错误处理
+## 8 错误处理
 
 1. 会有一个就是language MySQL not exist 我猜测并不是自己没有在sql代码中标记该语言，相反没有标记反倒应该不会报错，应该是vupress库中没有mysql语言。
 
@@ -633,7 +633,7 @@ vuepress默认图片目录是`/docs/.vuepress/public/`。
 
     
 
-## 09 node自动创建文件
+## 9 node自动创建文件
 
 在node环境中拷贝运行即可。
 

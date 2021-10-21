@@ -1,6 +1,6 @@
 # 001 elementUI时间
 
-## 01 限制选择范围
+## 1 限制选择范围
 
 >  官方文档中使用picker-options属性来限制可选择的日期，这里举例子稍做补充。
 
@@ -31,7 +31,7 @@ data (){
 
 
 
-## 02 设置value-format后报错
+## 2 设置value-format后报错
 
 设置`value-format="yyyy-MM-dd"`后能输出指定格式，但是报以下错误
 
