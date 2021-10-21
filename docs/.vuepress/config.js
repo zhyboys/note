@@ -10,7 +10,8 @@ module.exports = {
 	// --------------------------------------------------------------------
 	head: [
 		['meta', { name: 'keywords', content: '赵桓熠 · 博客,赵桓熠,赵桓熠的博客,赵桓熠的前端博客'}],
-		['meta', { name: 'baidu-site-verification', content: 'code-HFrfXXfIPH'}],
+		// ['meta', { name: 'baidu-site-verification', content: 'code-HFrfXXfIPH'}], // github
+		['meta', { name: 'baidu-site-verification', content: 'code-sLUWdxLhbP'}], // gitee
 		['link', { rel: 'icon', href: '/img/logo.png' }],
 		// ['link', { rel: 'icon', href: '/img/logo.favicon' }],
 		// ['link', { rel: 'stylesheet', href: '/css/style.css' }],
