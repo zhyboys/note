@@ -19,7 +19,7 @@ module.exports =
                 '/typora/01frontEnd/00summary/12git办公常用命令.md',
                 '/typora/01frontEnd/00summary/13CSS设置特定宽高技巧.md',
                 '/typora/01frontEnd/00summary/14JS计算当前周周一周日.md',
-                '/typora/01frontEnd/00summary/JS三大家族总结.md',
+                '/typora/01frontEnd/00summary/15JS三大家族总结.md',
             ]
         },
     ]
