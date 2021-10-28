@@ -1,13 +1,16 @@
 # 07 url-loader
 
+`url-loader`也是打包图片的。
+
+不同于file-loader的是能将图片压缩为base64。压缩后就不会再拷贝图片到打包目录了。
+
+```bash
+cnpm install url-loader --save-dev
+```
+
+
+
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>07-webpack-url-loader</title>
-</head>
-<body>
 <!--
 1.urlloader
 url-loader 功能类似于 file-loader，
@@ -36,8 +39,6 @@ npm install --save-dev url-loader
 图片比较小的时候直接转换成base64字符串图片, 减少请求次数
 图片比较大的时候由于生成的base64字符串图片也比较大, 就保持原有的图片
 -->
-</body>
-</html>
 ```
 
 ```js
@@ -57,7 +58,7 @@ rules: [
                     对于比较大的图片, 哪怕我们将图片转换成了base64的字符串之后, 也不会提升网页的性能, 还有可能降低网页的性能
                     (因为图片如果比较大, 那么转换之后的字符串也会比较多, 那么网页的体积就会表达, 那么访问的速度就会变慢)
                     * */
-                    limit: 1024 * 100,
+                    limit: 1024 * 100, // 100Kb
                     // 指定打包后文件名称
                     name: '[name].[ext]',
                     // 指定打包后文件存放目录

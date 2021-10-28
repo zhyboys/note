@@ -1,20 +1,31 @@
-# 13 Less-loader
+# 13 less-loader
+
+欲使用`less-loade`r需安装`less-loader`，此时运行会报错告诉找不到`less`模块，所以还要安装`less`。
+
+```bash
+cnpm install less-loader --save-dev
+cnpm install less --save-dev
+```
+
+
 
 ## 01 踩坑
 
 ### 1.1 配置踩坑
 
+**时隔一年的今天2021-10-28，再次按官网配，不会报错**
+
 在webpack官网配置这个Less会报错，必须复制`标题02 正确配置里的东西`。
 
 ```js
 {
-        test: /\.less$/i,
-        loader: [ // compiles Less to CSS
-          "style-loader",
-          "css-loader",
-          "less-loader",
-        ],
-      },
+   test: /\.less$/i,
+   loader: [ // compiles Less to CSS
+      "style-loader",
+      "css-loader",
+      "less-loader",
+   ],
+},
 ```
 
 ### 1.2 结果踩坑

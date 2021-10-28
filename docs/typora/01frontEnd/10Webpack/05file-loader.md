@@ -1,6 +1,14 @@
 # 05 file-loader
 
-## 01 我的提炼
+`file-loader`只能打包图片。
+
+## 0 关于loader的补充说明
+
+loader使用时不需要require引入，但plugin需要。并且loader只能打包文件，处理文件，但plugin不只打包文件，更能在webpack不同生命周期广播出来的事件对文件各种操作。
+
+tip: 对于loader，打包前只要require的路径（写代码的路径，而不是打包后的路径）是正确的，那么无论打包文件路径在webpack怎么配置，你都不必担心文件路径找不到的问题。webpack会帮你处理好一切。
+
+## 1 提炼
 
 ```js
 //3.1安装file-loader
@@ -26,9 +34,17 @@ module: {
 
 
 
-## 02 踩坑
+## 2 踩坑
 
-事实上，配置后图片不显示，并且浏览器会报错，解决方案是`esModule:false`关闭ES模块语法。
+事实上，配置后图片不显示，并且浏览器会报错。
+
+```
+[object%20Module]:1 GET file:///C:/Users/THINKPAD/Desktop/webpack-studay/webpack03/[object%20Module] net::ERR_FILE_NOT_FOUND
+```
+
+**解决方案一：**
+
+解决方案是`esModule:false`关闭ES模块语法。关闭后`let img = require('./xx.png')`输出的`console.log(img)`才与老师一样，输出的是图片路径。
 
 ```js
 use: [
@@ -43,9 +59,13 @@ use: [
 ],
 ```
 
+**解决方案二：**
+
+默认输出的`console.log(img)`是一个对象，对象中有`default`属性，`default`属性中是一个路径。那就使用default属性就可以了。`oImg.src = img.default`(`oImg`是document的img元素)。
 
 
-## 03 老师的原文
+
+## 3 老师的原文
 
 ```html
 <!DOCTYPE html>

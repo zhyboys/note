@@ -17,7 +17,7 @@ module.exports =
                 '/typora/01frontEnd/10Webpack/10ES6模块上.md',
                 '/typora/01frontEnd/10Webpack/11ES6模块中.md',
                 '/typora/01frontEnd/10Webpack/12ES6模块下.md',
-                '/typora/01frontEnd/10Webpack/13Less-loader.md',
+                '/typora/01frontEnd/10Webpack/13less-loader.md',
                 '/typora/01frontEnd/10Webpack/14sass-loader.md',
                 '/typora/01frontEnd/10Webpack/15postcss-loader之加前缀.md',
                 '/typora/01frontEnd/10Webpack/16postcss之变px为rem.md',

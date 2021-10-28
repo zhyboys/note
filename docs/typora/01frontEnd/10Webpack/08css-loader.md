@@ -2,14 +2,25 @@
 
 > 新知识：CSS中引入CSS：`@import index.css`。
 
+使用这个需要同时use`css-loader`和`style-loader`，也需要同时安装这两个。
+
+```bash
+npm install --save-dev css-loader
+npm install style-loader --save-dev
+```
+
+```
+css-loader:   解析css文件中的@import依赖关系
+style-loader: 将webpack处理之后的内容插入到HTML的HEAD代码中
+```
+
+即便是css代码，也是通过js引入，打包后的js在html中引入，js会自动将css插入到html头部。
+
+
+
+**原文：**
+
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>08-webpack-css-loader</title>
-</head>
-<body>
 <!--
 1.css-loader
 和图片一样webpack默认能不能处理CSS文件, 所以也需要借助loader将CSS文件转换为webpack能够处理的类型
@@ -29,8 +40,6 @@ npm install style-loader --save-dev
 css-loader:   解析css文件中的@import依赖关系
 style-loader: 将webpack处理之后的内容插入到HTML的HEAD代码中
 -->
-</body>
-</html>
 ```
 
 ```js

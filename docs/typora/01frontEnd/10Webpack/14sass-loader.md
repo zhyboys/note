@@ -1,5 +1,14 @@
 # 14 sass-loader
 
+需要安装`node-sass`和`sass-loader`
+
+```bash
+npm install --save-dev sass-loader
+npm install --save-dev sass-loader
+```
+
+
+
 ```html
 <!--
 1.scss-loader
@@ -21,7 +30,7 @@ npm install --save-dev sass-loader
       loader: "sass-loader" // 将 Sass 编译成 CSS
   }]
 }
-
+// use: ['style-loader','css-loader', 'sass-loader'] 
 注意点:
 因为loader是从右至左从下至上,所以必须先由sass-loader处理往后才能交给其他loader处理
 -->
