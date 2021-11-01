@@ -2,9 +2,20 @@
 
 > 遇到20/100px不能转化为0.2px是正常的（Less4.0版本后和Sass中的运算必须加括号）
 
+postcss是一个工具，里面有很多插件可供使用（也需要额外安装）
+
+```
+npm i -D postcss-loader
+
+# 自动补全前缀，适配浏览器的插件
+npm i -D autoprefixer
+```
+
+安装完在`postcss.config.js`中配置autoprefixer
 
 
-## 01 Postcss的介绍
+
+## 01 postcss的介绍
 
 ```html
 <!--
@@ -32,11 +43,12 @@ npm i -D postcss-loader
 2.2安装需要的插件（自动补充浏览器前缀）
 npm i -D autoprefixer
 2.3配置postcss-loader
-在css-loader or less-loader or sass-loader之前添加postcss-loader
+在[css-loader or less-loader or sass-loader]之前添加postcss-loader
+ * 务必把loader: "postcss-loader",添加到所有 有关cssloader 的最后（添加到最后的会被先处理）
 2.4创建postcss-loader配置文件
 postcss.config.js
 https://github.com/browserslist/browserslist#queries
-2.5在配置文件中配置autoprefixer
+2.5在配置文件postcss.config.js中配置autoprefixer
 module.exports = {
     plugins: {
         "autoprefixer": {
@@ -55,15 +67,7 @@ module.exports = {
 
 
 
-## 03 配置webpack.config.js
-
-```
-务必把loader: "postcss-loader",添加到所有 有关cssloader 的最后（添加到最后的会被先处理）
-```
-
-
-
-## 04 配置postcss.config.js
+## 03 配置postcss.config.js
 
 ```js
 module.exports = {
