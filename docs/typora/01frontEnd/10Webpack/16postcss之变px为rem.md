@@ -1,5 +1,11 @@
 # 16 postcss之变px为rem
 
+```bash
+npm install postcss-pxtorem -D
+```
+
+
+
 ## 01 安装
 
 ```html

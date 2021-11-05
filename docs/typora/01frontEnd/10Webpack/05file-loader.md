@@ -1,6 +1,6 @@
 # 05 file-loader
 
-`file-loader`只能打包图片。
+`file-loader`只学了打包图片和字体（格式为eot|svg|ttf|woff|woff2）。
 
 ## 0 关于loader的补充说明
 
