@@ -1,6 +1,8 @@
 # 16 postcss之变px为rem
 
 ```bash
+npm i -D postcss-loader
+
 npm install postcss-pxtorem -D
 ```
 
@@ -48,6 +50,7 @@ minPixelValue (Number) 设置要替换的最小像素值。
 ```js
 module.exports = {
     plugins: {
+         // 自动加前缀
         "autoprefixer": {
             "overrideBrowserslist": [
                 "ie >= 8", // 兼容IE7以上浏览器
@@ -57,7 +60,7 @@ module.exports = {
             ]
         },
         "postcss-pxtorem": {
-            rootValue: 100, // 根元素字体大小(相当于除数例如20/100rem中的100)
+            rootValue: 100, // 根元素字体大小(其实是除数例如20/100rem中的100)
             // propList: ['*'] // 可以从px更改到rem的属性
             propList: ["height"]
         }

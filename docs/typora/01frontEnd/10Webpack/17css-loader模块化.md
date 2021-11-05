@@ -2,6 +2,17 @@
 
 让CSS类名样式只能在导入的模块用
 
+实质：使用模块化后，类名会被改为凌乱的字符串，只有设置类名才能设置相应的样式。举例如下：
+
+使用案例
+
+```js
+import font from "../css/font.css";
+oHeader.setAttribute("class",font.fontt); //fontt是css中的类名
+```
+
+**开启模块化方法：**
+
 ```html
 <!--
 1.默认情况下通过import "./xxx.css"导入的样式是全局样式
@@ -25,12 +36,5 @@
 		modules: true
 	}
 },
-```
-
-使用案例
-
-```js
-import font from "../css/font.css";
-oHeader.setAttribute("class",font.fontt); //fontt是css中的类名
 ```
 

@@ -1,5 +1,7 @@
 # 18 file-loader字体图标
 
+<p style="color:#ff00ff"> 唯一一个没成功的打包 </p>
+
 **首先下载file-loader**
 
 ```html
