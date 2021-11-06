@@ -24,3 +24,31 @@ obj = {name:'lnj', age:33};
 console.log(obj);
 ```
 
+经过个人实践证明有些地方是令人难以理解的，百度说不必纠结于这些，没啥用。
+
+**以下均不会报错**，但是使用ES5的语法f1就会报错
+
+```ts
+let f1:(b:number) => void
+let f2:(b:number) => number
+let f3:(b:number) => never
+
+f1 = (b) => {
+    return 2
+}
+f2 = (b) => {
+   return 2
+}
+f3 = (b) => {
+    while (true){}
+}
+```
+
+**以下均会报错**只有写了`while(true)`或`throw new Error`才不会报错
+
+```ts
+function demo():never {
+    
+}
+demo();
+```

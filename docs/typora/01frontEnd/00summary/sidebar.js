@@ -23,7 +23,7 @@ module.exports =
                 '/typora/01frontEnd/00summary/15JS三大家族总结.md',
                 '/typora/01frontEnd/00summary/16浏览器脚本.md',
                 '/typora/01frontEnd/00summary/17小程序分包加载canvas.md',
-                '/typora/01frontEnd/00summary/19小程序背景色.md',
+                '/typora/01frontEnd/00summary/19小程序页面背景色.md',
                 '/typora/01frontEnd/00summary/20字体图标.md',
                 '/typora/01frontEnd/00summary/21字体.md',
             ]
