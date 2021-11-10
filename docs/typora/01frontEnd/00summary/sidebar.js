@@ -23,9 +23,16 @@ module.exports =
                 '/typora/01frontEnd/00summary/15JS三大家族总结.md',
                 '/typora/01frontEnd/00summary/16浏览器脚本.md',
                 '/typora/01frontEnd/00summary/17小程序分包加载canvas.md',
+                '/typora/01frontEnd/00summary/18简易爬虫.md',
                 '/typora/01frontEnd/00summary/19小程序页面背景色.md',
                 '/typora/01frontEnd/00summary/20字体图标.md',
                 '/typora/01frontEnd/00summary/21字体.md',
+                '/typora/01frontEnd/00summary/22小程序加载富文本.md',
+                '/typora/01frontEnd/00summary/23elementUI上传图片一张.md',
+                '/typora/01frontEnd/00summary/24qiankun框架初见.md',
+                '/typora/01frontEnd/00summary/25vsCode插件.md',
+                '/typora/01frontEnd/00summary/26搭建vuepress博客.md',
+                '/typora/01frontEnd/00summary/27黑科技获取地址.md',
             ]
         },
     ]

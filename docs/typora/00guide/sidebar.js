@@ -1,25 +1,10 @@
 module.exports=
 [
     {
-        text: '搭建博客',
-        collapsable: true,
-        children: [
-            '/typora/00guide/搭建博客/搭建vuepress博客.md',
-        ]
-    },
-    {
         text: '踩坑笔记',
         collapsable: true,
         children: [
             '/typora/00guide/踩坑笔记/notes/01踩坑.md',
-        ]
-    },
-    {
-        text: '黑科技',
-        collapsable: true,//表示可以折叠
-        children: [
-            '/typora/00guide/黑科技/01获取地址.md',
-            '/typora/00guide/黑科技/02爬虫.md',
         ]
     },
     {
