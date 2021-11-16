@@ -33,6 +33,12 @@ module.exports =
                 '/typora/01frontEnd/00summary/25vsCode插件.md',
                 '/typora/01frontEnd/00summary/26搭建vuepress博客.md',
                 '/typora/01frontEnd/00summary/27黑科技获取地址.md',
+                '/typora/01frontEnd/00summary/28websql与indexedDB.md',
+                '/typora/01frontEnd/00summary/29上传下载.md',
+                '/typora/01frontEnd/00summary/30样式穿透.md',
+                '/typora/01frontEnd/00summary/31ElementUI的Table跨页多选.md',
+                '/typora/01frontEnd/00summary/32DayJs.md',
+                '/typora/01frontEnd/00summary/33杂项.md',
             ]
         },
     ]

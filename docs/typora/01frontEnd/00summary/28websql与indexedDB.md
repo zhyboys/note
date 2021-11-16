@@ -5,13 +5,12 @@
 这个才是终极的，越来越支持的，只是觉得api比较多，先放一放。
 
 ```html
-    <!-- 
-
-        教程：https://www.kancloud.cn/sllyli/performance/1242198
-        教程：http://www.ruanyifeng.com/blog/2018/07/indexeddb.html
-        教程：https://www.tangshuang.net/3735.html
-        判断浏览器是否支持：window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
-     -->
+<!-- 
+教程：https://www.kancloud.cn/sllyli/performance/1242198
+教程：http://www.ruanyifeng.com/blog/2018/07/indexeddb.html
+教程：https://www.tangshuang.net/3735.html
+判断浏览器是否支持：window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+-->
 ```
 
 

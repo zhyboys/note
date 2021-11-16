@@ -18,3 +18,7 @@
 import * as echarts from './ec-canvas/echarts'
 ```
 
+相关文档：
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/subpackages/basic.html
+
