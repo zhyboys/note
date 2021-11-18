@@ -1,6 +1,10 @@
 # 28 HMR热更新上
 
+**没什么用**
 
+虽然能禁止浏览器自动刷新，但是，新改动的代码依然会起作用，只是js动态添加的数据不会像刷新一样被清空了。
+
+在2021年的今天，我不安装HMR只用默认的devServer也能实现这效果。也就是觉得**HMR没什么用**了。
 
 ## 01 说明
 
@@ -14,7 +18,7 @@
 每次打包之后都会自动刷新网页, 但是正是因为每当内容被修改时都会自动刷新网页
 所以给我们带来了很多不便, 这时就需要通过HMR插件来优化调试开发
 1.3HMR(HotModuleReplacementPlugin)热更新插件,
-会在内容发生改变的时候时时的更新修改的内容但是不会重新刷新网站(重新刷新网页会导致js动态添加数【比如点击按钮新增段落】据变没)
+会在内容发生改变的时候时时的更新修改的内容但是不会重新刷新网站(重新刷新网页会导致js动态添加数【比如点击按钮新增段落】据重置)
 
 2.HMR使用:
 HotModuleReplacementPlugin是一个内置插件, 所以不需要任何安装直接引入webpack模块即可使用
@@ -75,7 +79,7 @@ module.exports = {
 
 > 如果使用的是`style-loader`[将css插入HTML]，**不需要**此额外配置。
 >
-> 如果使用的是`MiniCssExtractPlugin.loader`[将CSS单独打包到一个文件中]，**需要**此配置才能热更新CSS
+> 如果使用的是`MiniCssExtractPlugin.loader`[将CSS单独打包到一个文件中]，**需要**此配置才能热更新CSS，否则编辑css文件后，没效果
 
 ```js
 // loader: "style-loader"
@@ -83,5 +87,17 @@ loader: MiniCssExtractPlugin.loader,
 options:{
     hmr: true //关键
 }
+```
+
+
+
+## 04 版本更新
+
+新版本这样配置，不然报错
+
+```js
+  devServer: {
+    hot: "only",
+  },
 ```
 

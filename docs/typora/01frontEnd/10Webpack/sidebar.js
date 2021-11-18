@@ -34,6 +34,16 @@ module.exports =
                 '/typora/01frontEnd/10Webpack/27CORS下.md',
                 '/typora/01frontEnd/10Webpack/28HMR热更新上.md',
                 '/typora/01frontEnd/10Webpack/29HMR热更新下.md',
+                '/typora/01frontEnd/10Webpack/30bable转换ES678语法上.md',
+                '/typora/01frontEnd/10Webpack/31bable转换ES678语法中.md',
+                '/typora/01frontEnd/10Webpack/32bable转换ES678语法下.md',
+                '/typora/01frontEnd/10Webpack/33bable技巧.md',
+                '/typora/01frontEnd/10Webpack/34html-withimg-loader.md',
+                '/typora/01frontEnd/10Webpack/35图片压缩.md',
+                '/typora/01frontEnd/10Webpack/36合并图片.md',
+                '/typora/01frontEnd/10Webpack/37图片路径问题.md',
+                '/typora/01frontEnd/10Webpack/38eslint.md',
+                '/typora/01frontEnd/10Webpack/39配置文件优化.md',
             ]
         },
         {
@@ -41,7 +51,25 @@ module.exports =
             collapsable:true,
             children:
             [
-                // '/typora/01frontEnd/09NodeJS/07Buffer.md',
+                '/typora/01frontEnd/10Webpack/40JS-Tree-Shaking.md',
+                '/typora/01frontEnd/10Webpack/41CSS-Tree-Shaking.md',
+                '/typora/01frontEnd/10Webpack/42Code-Splitting.md',
+                '/typora/01frontEnd/10Webpack/43异步加载模块.md',
+                '/typora/01frontEnd/10Webpack/44Prefetching-Preloading.md',
+                '/typora/01frontEnd/10Webpack/45长缓存优化.md',
+                '/typora/01frontEnd/10Webpack/46SplitChunksPlugin.md',
+                '/typora/01frontEnd/10Webpack/47Provide-Plugin.md',
+                '/typora/01frontEnd/10Webpack/48imports-loader.md',
+                '/typora/01frontEnd/10Webpack/49resolve.md',
+                '/typora/01frontEnd/10Webpack/50noParse.md',
+                '/typora/01frontEnd/10Webpack/51ignorePlugin.md',
+                '/typora/01frontEnd/10Webpack/52externals.md',
+                '/typora/01frontEnd/10Webpack/53dll动态链接库上.md',
+                '/typora/01frontEnd/10Webpack/54dll动态链接库下.md',
+                '/typora/01frontEnd/10Webpack/55happypack.md',
+                '/typora/01frontEnd/10Webpack/56打包多页应用上.md',
+                '/typora/01frontEnd/10Webpack/57打包多页应用下.md',
+                '/typora/01frontEnd/10Webpack/58bundle-analyzer.md',
             ]
         },
         {

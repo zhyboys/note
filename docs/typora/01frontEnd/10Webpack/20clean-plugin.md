@@ -14,6 +14,9 @@ webpack-clean-plugin会在打包之前将我们指定的文件夹清空
 
 3.clean-webpack-plugin使用（文档链接）
 https://github.com/johnagan/clean-webpack-plugin
+-->
+
+<!--
 3.1安装clean-webpack-plugin
 npm install --save-dev clean-webpack-plugin
 3.2配置clean-webpack-plugin

@@ -2,7 +2,7 @@
 
 
 
-## 01 说明
+## 1 说明
 
 ```html
 <!--
@@ -24,4 +24,18 @@ plugins: [new CopyWebpackPlugin([
         ])];
 -->
 ```
+
+## 2 参数报错
+
+新版本的copyPlugin传入的参数不再是数组，而是对象，否则报错，如下：
+
+```js
+new CopyWebpackPlugin({
+    patterns: [
+        { from: "./src/static", to: "static" },
+      ],
+})
+```
+
+from路径是基于配置文件`webpack.config.js`所在的路径作为根据。
 

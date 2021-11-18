@@ -14,7 +14,11 @@ mini-css-extract-plugin是一个专门用于将打包的CSS内容提取到单独
 
 2.mini-css-extract-plugin使用
 https://webpack.js.org/plugins/mini-css-extract-plugin/
+-->
+```
 
+```html
+<!--
 2.1mini-css-extract-plugin安装
 npm install --save-dev mini-css-extract-plugin
 
@@ -34,6 +38,10 @@ options: {
 -->
 ```
 
+
+
 ## 02 注意
 
-需要将`style-loader`（作用是将css代码插入header标签中）替换掉，替换为`MiniCssExtractPlugin.loader`
+1. 需要将`style-loader`（作用是将css代码插入header标签中）替换掉，替换为`MiniCssExtractPlugin.loader`（对象名.属性）。
+2. 该插件自动打包好单独的CSS文件后，会自动插入到`index.html`文件中。
+

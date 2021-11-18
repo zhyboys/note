@@ -55,7 +55,7 @@ proxy: [{
 
 
 
-## 02 启动服务器
+## 02 启动node服务器
 
 ```js
 const http = require("http");
@@ -81,6 +81,10 @@ http.createServer(function (req, res) {
 
 ## 03 前端打包启动serve
 
+```bash
+cnpm install jquery
+```
+
 ```js
 import $ from "jquery";
 
@@ -103,7 +107,6 @@ $.get("/login", function (result) {
 
 `webpack.config.js`
 
-```js
     devServer: {
         contentBase: "./bundle",
         open: true,
@@ -121,9 +124,14 @@ $.get("/login", function (result) {
             "/login": {
                 target: "http://127.0.0.1:3000",
                 changeOrigin: true,     // 域名跨域
-                secure: false,          // https跨域
+                secure: false,          // https跨
             },
+            '/api': {
+        		target: 'https://dev-health.csih.cn/api', // 测试环境
+        		changeOrigin: true,
+        		pathRewrite: {			// 路径重写--来自番茄树
+          			'^/api': ''
+        		}
+      		}
         }
          */
-```
-

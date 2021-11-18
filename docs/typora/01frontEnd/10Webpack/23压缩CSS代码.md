@@ -1,5 +1,7 @@
 # 23 压缩CSS代码
 
+搭配css-plugin使用。
+
 如果将`webpack.config.js`文件中的模式改为production模式，则 js 代码在打包时会自动被压缩。
 
 **以下压缩也必须在production模式下进行**
@@ -25,7 +27,7 @@ npm install --save-dev optimize-css-assets-webpack-plugin
 const TerserJSPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-3.4配置webpack优化项
+3.4配置webpack优化项---直接写在配置文件根部，第一个花括号里
 optimization: {
     minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
 }
