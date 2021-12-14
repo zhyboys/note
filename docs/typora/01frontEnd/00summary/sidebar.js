@@ -39,6 +39,8 @@ module.exports =
                 '/typora/01frontEnd/00summary/31ElementUI的Table跨页多选.md',
                 '/typora/01frontEnd/00summary/32DayJs.md',
                 '/typora/01frontEnd/00summary/33杂项.md',
+                '/typora/01frontEnd/00summary/34axios请求.md',
+                '/typora/01frontEnd/00summary/35小程序上拉加载更多.md',
             ]
         },
     ]
