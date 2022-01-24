@@ -44,7 +44,8 @@ module.exports =
 		children: [
 			{text: 'MySQL', link: '/typora/01frontEnd/13MySQL/01数据库开篇.md'},
 			{text: 'node三大框架', link: '/typora/01frontEnd/16nodeFramework/'},
-			{text: 'TypeScript', link: '/typora/01frontEnd/18TypeScript/'}
+			{text: 'TypeScript', link: '/typora/01frontEnd/18TypeScript/'},
+			{text: 'Python', link: '/typora/01frontEnd/50Python/'}
 		]
 	},
 	/* discard废弃笔记 */
@@ -62,8 +63,7 @@ module.exports =
 				{text: 'javaweb', link: '/typora/05discard/09Javaweb/'},
 				{text: 'JDBC', link: '/typora/05discard/10JDBC/01JDBC概述.md'},
 				{text: 'JSP', link: '/typora/05discard/11JSP/01浅浅了解.md'},
-				{text: 'AutoJS', link: '/typora/05discard/12Auto/01概念.md'},
-				{text: 'python', link: '/typora/05discard/13python/python.md'},
+				{text: 'AutoJS', link: '/typora/05discard/12Auto/01概念.md'}
 		]
 	},
 	/**工具箱 */

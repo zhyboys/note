@@ -26,6 +26,7 @@ module.exports=
 	 '/typora/01frontEnd/13MySQL/':require('../typora/01frontEnd/13MySQL/sidebar'),
 	 '/typora/01frontEnd/16nodeFramework/':require('../typora/01frontEnd/16nodeFramework/sidebar'),
 	 '/typora/01frontEnd/18TypeScript/':require('../typora/01frontEnd/18TypeScript/sidebar'),
+	 '/typora/01frontEnd/50Python/':require('../typora/01frontEnd/50Python/sidebar'),
 	/**
 	 * 废弃discard
 	 */
@@ -40,6 +41,5 @@ module.exports=
 	'/typora/05discard/09Javaweb/':require('../typora/05discard/09Javaweb/sidebar'),
 	'/typora/05discard/10JDBC/':require('../typora/05discard/10JDBC/sidebar'),
 	'/typora/05discard/11JSP/':require('../typora/05discard/11JSP/sidebar'),
-	'/typora/05discard/12Auto/':require('../typora/05discard/12Auto/sidebar'),
-	'/typora/05discard/13python/':require('../typora/05discard/13python/sidebar'),
+	'/typora/05discard/12Auto/':require('../typora/05discard/12Auto/sidebar')
 }
