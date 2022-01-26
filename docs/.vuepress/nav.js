@@ -90,6 +90,19 @@ module.exports =
 					{ text: 'CSDN', link: 'https://blog.csdn.net/' },
 				]
 			},
+			{
+				text: 'Ftp',
+				children: [
+					{ text: '8u-ftp', link: 'http://ftp.8u.cn/' },
+					{ text: 'lrzsz拖拽上传', link: 'http://www.baidu.com/' },
+				]
+			},
+			{
+				text: '我的服务器',
+				children: [
+					{ text: '音乐', link: 'http://101.43.28.64' }
+				]
+			},
 		]
 	},
 
