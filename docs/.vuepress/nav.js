@@ -95,6 +95,7 @@ module.exports =
 				children: [
 					{ text: '8u-ftp', link: 'http://ftp.8u.cn/' },
 					{ text: 'lrzsz拖拽上传', link: 'http://www.baidu.com/' },
+					{ text: '压缩包转换', link: 'https://convertio.co/zh/zip-rar/' },
 				]
 			},
 			{
