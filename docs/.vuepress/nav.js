@@ -84,7 +84,7 @@ module.exports =
 				]
 			},
 			{
-				text: '博客指南',
+				text: '技术分享指南',
 				children: [
 					{ text: '掘金', link: 'https://juejin.im/' },
 					{ text: 'CSDN', link: 'https://blog.csdn.net/' },

@@ -1,5 +1,5 @@
 module.exports = {
-	title: '赵桓熠 · 博客',
+	title: '赵桓熠 · 技术分享',
 	description: '一个有信念者所开发出的力量，大于99个只有兴趣者。',
 	dest: './dist',//不配(注释掉)默认在.vuepress目录下
 	port: '7777',
@@ -9,7 +9,7 @@ module.exports = {
 	// repo: 'https://github.com/TaoXuSheng/mt-blog', // 添加 github 链接 --
 	// --------------------------------------------------------------------
 	head: [
-		['meta', { name: 'keywords', content: '赵桓熠 · 博客,赵桓熠,赵桓熠的博客,赵桓熠的前端博客'}],
+		['meta', { name: 'keywords', content: '赵桓熠 · 技术分享,赵桓熠,赵桓熠的技术分享,赵桓熠的前端技术分享'}],
 		// ['meta', { name: 'baidu-site-verification', content: 'code-HFrfXXfIPH'}], // github
 		['meta', { name: 'baidu-site-verification', content: 'code-sLUWdxLhbP'}], // gitee
 		['link', { rel: 'icon', href: '/img/logo.png' }],
