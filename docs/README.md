@@ -17,5 +17,6 @@ features:
   details: 截至2021年10月21日共发布文章820+，期待明日的更新。
 - title: 网站推荐
   details: 网易云课堂，慕课网，哔哩哔哩，拉勾教育，知播渔。道阻且长，行则将之，行而不辍，未来可期！
-footer: MIT Licensed | zhy Copyright @ 2020-present Evan You
+# footer: MIT Licensed | zhy Copyright @ 2020-present Evan You
+footer: 豫ICP备2022003165号-1
 ---
