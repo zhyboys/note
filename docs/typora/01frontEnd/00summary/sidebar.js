@@ -41,7 +41,8 @@ module.exports =
                 '/typora/01frontEnd/00summary/33杂项.md',
                 '/typora/01frontEnd/00summary/34axios请求.md',
                 '/typora/01frontEnd/00summary/35小程序上拉加载更多.md',
-                '/typora/01frontEnd/00summary/36发财要多久.md',
+                '/typora/01frontEnd/00summary/36股票致富时长.md',
+                '/typora/01frontEnd/00summary/37小程序分享返回.md',
             ]
         },
     ]
