@@ -28,17 +28,17 @@ module.exports =
             collapsable: true,
             children:
                 [
-                    '17VueX实现原理分析.md',
-                    '18添加全局$store.md',
-                    '19实现共享数据.md',
-                    '20实现getters方法.md',
-                    '21实现mutations方法.md',
-                    '22实现actions方法.md',
-                    '23模块化共享数据上.md',
-                    '24模块化共享数据下.md',
-                    '25提取模块信息.md',
-                    '26安装模块数据.md',
-                    '27安装模块方法.md',
+                    '/typora/01frontEnd/12VueCode/17VueX实现原理分析.md',
+                    '/typora/01frontEnd/12VueCode/18添加全局$store.md',
+                    '/typora/01frontEnd/12VueCode/19实现共享数据.md',
+                    '/typora/01frontEnd/12VueCode/20实现getters方法.md',
+                    '/typora/01frontEnd/12VueCode/21实现mutations方法.md',
+                    '/typora/01frontEnd/12VueCode/22实现actions方法.md',
+                    '/typora/01frontEnd/12VueCode/23模块化共享数据上.md',
+                    '/typora/01frontEnd/12VueCode/24模块化共享数据下.md',
+                    '/typora/01frontEnd/12VueCode/25提取模块信息.md',
+                    '/typora/01frontEnd/12VueCode/26安装模块数据.md',
+                    '/typora/01frontEnd/12VueCode/27安装模块方法.md',
                 ]
         },
         {
