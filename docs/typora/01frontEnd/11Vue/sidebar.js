@@ -120,7 +120,16 @@ module.exports =
                 '/typora/01frontEnd/11Vue/106预渲染解决SEO问题.md',
                 '/typora/01frontEnd/11Vue/107预渲染适配移动端问题.md',
                 '/typora/01frontEnd/11Vue/108在nodejs中操作DOM元素.md',
-                '/typora/01frontEnd/11Vue/999遇到问题.md',
+                '/typora/01frontEnd/11Vue/109项目中使用vuex.md',
+                '/typora/01frontEnd/11Vue/110vue中遇到的问题.md',
+            ]
+        },
+        {
+            text: "vue3未完结",
+            collapsable:true,
+            children:
+            [
+                '/typora/01frontEnd/11Vue/200vue3开篇.md',
             ]
         },
     ]
