@@ -19,6 +19,7 @@ module.exports=
 	'/typora/01frontEnd/09NodeJS/':require('../typora/01frontEnd/09NodeJS/sidebar'),
 	'/typora/01frontEnd/10Webpack/':require('../typora/01frontEnd/10Webpack/sidebar'),
 	'/typora/01frontEnd/11Vue/':require('../typora/01frontEnd/11Vue/sidebar'),
+	'/typora/01frontEnd/12VueCode/':require('../typora/01frontEnd/12VueCode/sidebar'),
 
 	/**
 	 * node后端

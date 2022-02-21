@@ -36,6 +36,7 @@ module.exports =
 			{text:"NodeJS",link:"/typora/01frontEnd/09NodeJS/01简介.md"},
 			{text:"webpack4",link:"/typora/01frontEnd/10Webpack/01概念.md"},
 			{text:"vue全家桶",link:"/typora/01frontEnd/11Vue/001开篇.md"},
+			{text:"vue原理",link:"/typora/01frontEnd/12VueCode/01Vue双向数据绑定原理上.md"},
 		]
 	},
 	/* node后端 */
