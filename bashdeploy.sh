@@ -9,9 +9,9 @@ npm run docs:build
 # vuepress build docs
 
 # 进入生成的文件夹
-# cd docs/.vuepress/dist
+# cd docs/.vuepress/zhyboy
 # 也有可能是下面的文件夹
-cd dist
+cd zhyboy
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
