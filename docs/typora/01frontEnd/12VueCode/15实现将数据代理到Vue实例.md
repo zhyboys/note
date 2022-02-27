@@ -1,1 +1,41 @@
 # 15 实现将数据代理到Vue实例
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01-Vue基本模板</title>
+    <!--1.下载导入Vue.js-->
+<!--    <script src="js/vue.js"></script>-->
+    <script src="js/nue.js"></script>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="name">
+    <div v-on:click="myFn">我是div</div>
+</div>
+<script>
+    // 2.创建一个Vue的实例对象
+    // let vue = new Vue({
+    let vue = new Nue({
+        // 3.告诉Vue的实例对象, 将来需要控制界面上的哪个区域
+        el: '#app',
+        // el: document.querySelector('#app'),
+        // 4.告诉Vue的实例对象, 被控制区域的数据是什么
+        data: {
+            name: '李南江'
+        },
+        methods:{
+            myFn(){
+                // alert('myFn被执行了');
+                console.log(this);
+                console.log(this.name);
+            }
+        }
+    });
+</script>
+</body>
+</html>
+```
+
