@@ -1,5 +1,5 @@
 module.exports = {
-	title: '赵桓熠 · 技术分享',
+	title: 'Y · 技术分享',
 	description: '一个有信念者所开发出的力量，大于99个只有兴趣者。',
 	dest: './zhyboy',//不配(注释掉)默认在.vuepress目录下
 	port: '7777',

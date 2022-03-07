@@ -43,6 +43,9 @@ module.exports =
                 '/typora/01frontEnd/00summary/35小程序上拉加载更多.md',
                 '/typora/01frontEnd/00summary/36股票致富时长.md',
                 '/typora/01frontEnd/00summary/37小程序分享返回.md',
+                '/typora/01frontEnd/00summary/38elementUI输入框合法金额.md',
+                '/typora/01frontEnd/00summary/39金额显示千位符.md',
+                '/typora/01frontEnd/00summary/40金额保留两位小数.md',
             ]
         },
     ]
