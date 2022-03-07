@@ -105,6 +105,13 @@ module.exports =
 					{ text: '音乐', link: 'http://101.43.28.64' }
 				]
 			},
+			{
+				text: '面试题',
+				children: [
+					{ text: 'vue', link: 'https://vue3js.cn/' },
+					{ text: '面试题快捷方式', link: 'https://vue3js.cn/interview/' },
+				]
+			},
 		]
 	},
 
