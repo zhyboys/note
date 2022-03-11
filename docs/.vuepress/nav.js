@@ -46,7 +46,8 @@ module.exports =
 			{text: 'MySQL', link: '/typora/01frontEnd/13MySQL/01数据库开篇.md'},
 			{text: 'node三大框架', link: '/typora/01frontEnd/16nodeFramework/'},
 			{text: 'TypeScript', link: '/typora/01frontEnd/18TypeScript/'},
-			{text: 'Python', link: '/typora/01frontEnd/50Python/'}
+			{text: 'Python', link: '/typora/01frontEnd/50Python/'},
+			{text: 'Python自动化测试', link: '/typora/01frontEnd/51PythonAutomatedTesting/'},
 		]
 	},
 	/* discard废弃笔记 */
