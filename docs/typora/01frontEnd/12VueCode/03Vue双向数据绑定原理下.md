@@ -2,6 +2,8 @@
 
 为什么：为什么可以直接` value = newValue `修改obj里的内容？
 
+其实set和get修改和返回的都是value，根本就不是obj.xxx。
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
