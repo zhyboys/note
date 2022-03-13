@@ -1,5 +1,7 @@
 # 03 Vue双向数据绑定原理下
 
+为什么：为什么可以直接` value = newValue `修改obj里的内容？
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
