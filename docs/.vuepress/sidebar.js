@@ -28,7 +28,7 @@ module.exports=
 	 '/typora/01frontEnd/16nodeFramework/':require('./sidebar/01frontEnd/16nodeFramework'),
 	 '/typora/01frontEnd/18TypeScript/':require('./sidebar/01frontEnd/18TypeScript'),
 	 '/typora/01frontEnd/50Python/':require('./sidebar/01frontEnd/50Python'),
-	 '/typora/01frontEnd/51PythonAutomatedTesting/':require('./sidebar/01frontEnd/51PythonAutomatedTesting'),
+	 '/typora/01frontEnd/51PythonExtend/':require('./sidebar/01frontEnd/51PythonExtend'),
 	/**
 	 * 废弃discard
 	 */
