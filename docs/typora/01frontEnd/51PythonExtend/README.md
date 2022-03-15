@@ -1,0 +1,51 @@
+>  安装包
+
+```
+# 关于百度人脸识别
+pip install opencv-python
+pip install baidu_aip
+```
+
+```
+# 关于web自动化
+pip install selenium
+```
+
+---
+
+> 本地人脸识别报错
+
+```
+在使用 Python 3 &OpenCV 3.0.0 进行人脸识别训练时发现异常： AttributeError: ‘module’ object has no attribute ‘LBPHFaceRecognizer_create’OpenCV 需要安装 opencv-contrib-python 模块，直接使用 pip 就可以进行安装，命令如下： 
+
+pip install opencv-contrib-python
+或者
+pip --default-timeout=1000 install -U opencv-contrib-python
+
+安装openCV的xml文件
+https://wwa.lanzouy.com/b01da9tng
+密码:2cdf
+```
+
+> 更快速的安装
+
+```
+【问题解决】module 'cv2.cv2' has no attribute 'face'
+ 出错的原因：
+1、可能cv2相关包没有安装完；
+2、可能缺少相关包。
+针对第一种情况：
+可以先卸载相关包，卸载语句如下：
+pip uninstall opencv-contrib-python
+pip uninstall opencv-python
+针对第二种情况：
+可以安装相关包：
+pip install opencv-python
+pip install opencv-contrib-python
+但是如果直接用这两句的话下载速度太慢了，可以换一个语句（此时安装快得飞起！！！）：
+pip install Pyinstaller -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+（其中的Pyinstaller是你需要下载的库或包名，根据自己需求自行更改即可）
+```
+
+转载：[博客园](https://www.cnblogs.com/wydxry/p/12452371.html)
+
