@@ -38,7 +38,7 @@ idNme.send_keys("少艾")
 wb.find_element_by_id("su").click()
 ```
 
-
+软件：按键精灵、UiBot
 
 ---
 
