@@ -1,17 +1,52 @@
 >  安装包
 
 ```
+# 关于web自动化
+pip install selenium
+# 安装完后记下安装路径
+# 下载谷歌驱动
+# 将谷歌驱动放在selenium下
+```
+
+[下载响应版本的谷歌驱动](https://registry.npmmirror.com/binary.html?path=chromedriver/) 
+
+```python
+# 运行python代码
+from selenium import webdriver
+driver = webdriver.Chrome() # Chrome 浏览器
+# 或者
+from selenium import webdriver
+chrome_driver=r"C:\\Users\\THINKPAD\\anaconda3\\Lib\site-packages\\selenium\webdriver\\chrome\\chromedriver.exe"
+driver=webdriver.Chrome(executable_path=chrome_driver)
+```
+
+[常用方法文档](https://www.cnblogs.com/liangmei/p/14984871.html)
+
+[常用方法举例](https://blog.csdn.net/zhangkaiyazky/article/details/102708667)
+
+> Demo：打开百度搜索 少艾
+
+```python
+from selenium import webdriver
+chrome_driver=r"C:\\Users\\THINKPAD\\anaconda3\\Lib\site-packages\\selenium\webdriver\\chrome\\chromedriver.exe"
+driver=webdriver.Chrome(executable_path=chrome_driver)
+
+wb = driver
+wb.get("http://www.baidu.com")
+idNme = wb.find_element_by_id("kw")
+idNme.send_keys("少艾")
+wb.find_element_by_id("su").click()
+```
+
+
+
+---
+
+```
 # 关于百度人脸识别
 pip install opencv-python
 pip install baidu_aip
 ```
-
-```
-# 关于web自动化
-pip install selenium
-```
-
----
 
 > 本地人脸识别报错
 
