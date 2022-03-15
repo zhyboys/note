@@ -47,7 +47,7 @@ module.exports =
 			{text: 'node三大框架', link: '/typora/01frontEnd/16nodeFramework/'},
 			{text: 'TypeScript', link: '/typora/01frontEnd/18TypeScript/'},
 			{text: 'Python', link: '/typora/01frontEnd/50Python/'},
-			{text: 'Python自动化测试', link: '/typora/01frontEnd/51PythonAutomatedTesting/'},
+			{text: 'Python自动化测试', link: '/typora/01frontEnd/51PythonExtend/'},
 		]
 	},
 	/* discard废弃笔记 */
