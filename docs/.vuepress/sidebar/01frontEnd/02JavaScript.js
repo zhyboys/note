@@ -49,7 +49,7 @@ module.exports =
             [
                 '/typora/01frontEnd/02JavaScript/036DOM概念.md',
                 '/typora/01frontEnd/02JavaScript/036DOM获取元素上.md',
-                '/typora/01frontEnd/02JavaScript/037DOM获取元素下.md',
+                '/typora/01frontEnd/02JavaScript/037DOM获取相关元素下.md',
                 '/typora/01frontEnd/02JavaScript/038元素的增删改查.md',
                 '/typora/01frontEnd/02JavaScript/039元素属性.md',
                 '/typora/01frontEnd/02JavaScript/040元素内容操作.md',

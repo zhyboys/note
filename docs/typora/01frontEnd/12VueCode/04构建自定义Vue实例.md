@@ -1,5 +1,7 @@
 # 04 构建自定义Vue实例
 
+我们是怎样使用vue的。
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -50,7 +52,7 @@
 </html>
 ```
 
-
+vue怎么实现。
 
 ```js
 class Nue {
